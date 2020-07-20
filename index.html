@@ -4,13 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM trees</title>
+    <style>
+        #list li:nth-child(3n + 3) {
+            color: blue;
+        }
+        #list li:nth-child(5n + 5) {
+            color: green;
+        }
+
+        /* SPAN */
+
+        .before {
+            color: #FFFF99;
+        }
+        .after {
+            color: #330000;
+        }
+        .prepend {
+            color: #330099;
+        }
+        .append {
+            color: #009933;
+        }
+    </style>
 </head>
 <body>
-    <div class="task">
-        DOM trees
-    </div>
+    <title>DOM trees</title>
+    <ul id="list"></ul>
     <hr>
-    
+    <h1 id="user-name"></h1>
+    <hr>
+    <ul id="string-list"></ul>
+    <hr>
+    <div id="elem1" style="background-color: #1d4faa;"></div>
+    <hr>
+    <p class="bgcolor" id="bgcolor">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero soluta sit ipsam molestiae unde illum, sed sint inventore ducimus at reprehenderit dolorem deleniti officiis officia eveniet dolorum? Perferendis, cupiditate facilis.</p>
+    <hr>
+    <ol></ol>
+    <hr>
+    <div id="gallery"></div>
+
     <script src="./assets/js/main.js"></script>
 </body>
 </html>
